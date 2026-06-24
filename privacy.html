@@ -1,53 +1,120 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BabyNova Privacy Policy</title>
+  <title>小守护 / BabyNova Privacy Policy</title>
   <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #211814; background: #fffaf4; line-height: 1.58; }
-    main { max-width: 780px; margin: 0 auto; padding: 48px 22px 72px; }
-    h1 { font-size: 40px; line-height: 1.12; margin: 0 0 8px; }
+    :root {
+      color-scheme: light;
+      --bg: #fffaf4;
+      --text: #211814;
+      --muted: #64564d;
+      --soft: #8b7d74;
+      --accent: #ed5d84;
+      --panel: #ffffff;
+      --line: #eadfd7;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.62;
+    }
+    main { max-width: 860px; margin: 0 auto; padding: 44px 22px 72px; }
+    h1 { font-size: 36px; line-height: 1.16; margin: 0 0 8px; letter-spacing: 0; }
     h2 { font-size: 22px; margin: 34px 0 10px; }
-    p, li { font-size: 16.5px; color: #51443c; }
-    a { color: #ed5d84; font-weight: 650; }
-    .updated { color: #8b7d74; margin-bottom: 28px; }
-    footer { margin-top: 42px; font-size: 14px; color: #8b7d74; }
+    h3 { font-size: 18px; margin: 24px 0 8px; }
+    p, li { font-size: 16px; color: var(--muted); }
+    ul { padding-left: 22px; }
+    a { color: var(--accent); font-weight: 650; }
+    .updated { color: var(--soft); margin-bottom: 24px; }
+    .notice {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 20px 0 28px;
+    }
+    .lang { margin-top: 54px; padding-top: 34px; border-top: 1px solid var(--line); }
+    footer { margin-top: 42px; font-size: 14px; color: var(--soft); }
   </style>
 </head>
 <body>
   <main>
-    <h1>BabyNova Privacy Policy</h1>
-    <p class="updated">Last updated: June 24, 2026</p>
+    <h1>小守护 / BabyNova 隐私政策</h1>
+    <p class="updated">更新日期：2026 年 6 月 24 日</p>
 
-    <p>BabyNova is a newborn care tracking app. This policy explains what information the app handles and how it is used.</p>
+    <div class="notice">
+      <p>小守护 / BabyNova 是面向父母和照护者的新生儿护理记录工具。本政策说明应用会处理哪些信息、如何使用这些信息，以及你可以如何联系我们。</p>
+      <p>应用提供的黄疸、喂养、体重、尿布、睡眠等提示仅用于记录整理和一般护理参考，不构成医疗诊断、治疗或医疗建议。如宝宝出现精神差、吃奶明显减少、黄疸加重、尿布明显减少、白便、血便等异常情况，请及时咨询专业医生。</p>
+    </div>
 
-    <h2>Information You Provide</h2>
-    <p>BabyNova lets you record baby profile information and care logs, including feeding, jaundice values, weight, diaper records, sleep records, reminders, and notes you choose to enter.</p>
+    <h2>我们处理的信息</h2>
+    <p>你可以在应用中主动记录宝宝资料和护理记录，包括宝宝昵称或姓名、出生日期、性别、出生体重、孕周、喂养、黄疸数值、体重、尿布、睡眠、提醒设置和备注内容。</p>
+    <p>华为应用市场 Android 首发版本以本地记录为主，不提供账号系统，不接入广告 SDK，不接入第三方统计 SDK，不请求定位、通讯录、相机、麦克风、照片、运动、健康数据等系统权限。</p>
 
-    <h2>How Information Is Used</h2>
-    <p>The app uses your records to show summaries, trends, reminders, Home Screen widgets, and AI-powered care summaries. BabyNova is not a medical diagnosis, treatment, or medical advice tool and does not replace a qualified healthcare professional.</p>
+    <h2>信息的使用方式</h2>
+    <ul>
+      <li>展示首页概览、记录列表、趋势和护理提示。</li>
+      <li>在你设置提醒时，通过本地通知提示喂养、黄疸或体重记录。</li>
+      <li>在 iOS 版本中，用于本地小组件展示摘要。</li>
+      <li>在你主动请求 AI 护理摘要时，用于生成你请求的摘要内容。</li>
+    </ul>
 
-    <h2>Storage and Processing</h2>
-    <p>Care records are stored on your device. BabyNova sends data to the AI service only when you choose to generate an AI-powered care summary and agree to the in-app data sharing notice.</p>
+    <h2>本地存储与网络处理</h2>
+    <p>Android 华为首发版本的护理记录保存在你的设备本地。卸载应用或清除应用数据会删除本地数据。</p>
+    <p>iOS 版本的护理记录主要保存在设备本地，主屏幕小组件摘要通过本地 App Group 存储读取。iOS 版本的订阅购买由 Apple StoreKit 处理，我们不会接收你的银行卡号或完整支付凭证。</p>
 
-    <h2>AI Care Summaries</h2>
-    <p>When you request an AI care summary, BabyNova may send the selected baby's profile information, recent feeding records, jaundice records, weight records, app language, region, and related care notes to the BabyNova AI service. The BabyNova AI service may use configured AI providers, such as DeepSeek, Claude, or OpenAI, to generate the requested summary.</p>
-    <p>This information is used only to provide the AI summary you requested. AI-generated content is for log organization and general information only. It is not medical advice, diagnosis, or treatment.</p>
+    <h2>AI 护理摘要</h2>
+    <p>在支持 AI 护理摘要的版本中，只有当你主动点击生成摘要并同意应用内提示时，应用才会发送所选宝宝的资料和相关护理记录给 BabyNova AI 服务。BabyNova AI 服务可能使用配置的 AI 服务提供方生成摘要，例如 DeepSeek、Claude 或 OpenAI。</p>
+    <p>AI 生成内容仅用于记录整理和一般信息参考，不能替代专业医生。请不要把 AI 摘要作为诊断、治疗或用药依据。</p>
 
-    <h2>Tracking and Advertising</h2>
-    <p>BabyNova does not track you across apps or websites owned by other companies for advertising purposes. BabyNova does not use advertising SDKs.</p>
+    <h2>广告、分析与追踪</h2>
+    <p>我们不会为了广告目的跨应用或跨网站追踪你。当前应用不包含广告 SDK、第三方统计 SDK、数据经纪人 SDK 或跨应用追踪标识符。</p>
 
-    <h2>Children's Privacy</h2>
-    <p>BabyNova is intended for parents and caregivers. The app may contain information about a baby entered by a parent or caregiver. Please do not enter information unless you have the right to do so.</p>
+    <h2>儿童隐私</h2>
+    <p>小守护 / BabyNova 面向父母和照护者使用，不面向儿童独立使用。请仅在你有权记录相关信息的情况下录入宝宝资料和护理记录。</p>
 
-    <h2>Data Deletion</h2>
-    <p>You can delete records from within the app. For privacy questions or deletion requests related to server-side processing, contact us at <a href="mailto:68183830@qq.com">68183830@qq.com</a>.</p>
+    <h2>数据删除与权利请求</h2>
+    <p>你可以在应用内删除记录，也可以通过卸载应用或清除应用数据删除本地保存的信息。对于可能涉及服务器处理的 AI 摘要相关问题、隐私咨询或删除请求，请通过以下邮箱联系我们。</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this Privacy Policy, email <a href="mailto:68183830@qq.com">68183830@qq.com</a>.</p>
+    <h2>联系我们</h2>
+    <p>邮箱：<a href="mailto:68183830@qq.com">68183830@qq.com</a></p>
 
-    <footer>© 2026 GUANGYU LI. BabyNova.</footer>
+    <section class="lang" lang="en">
+      <h1>BabyNova Privacy Policy</h1>
+      <p class="updated">Last updated: June 24, 2026</p>
+
+      <p>BabyNova is a newborn care tracking app for parents and caregivers. This policy explains what information the app handles and how it is used.</p>
+      <p>BabyNova is for care tracking and general informational support only. It is not a medical diagnosis, treatment, or medical advice tool and does not replace a qualified healthcare professional.</p>
+
+      <h2>Information You Provide</h2>
+      <p>You may enter baby profile information and care logs, including name or nickname, birth date, gender, birth weight, gestational age, feeding, jaundice values, weight, diaper records, sleep records, reminders, and notes.</p>
+
+      <h2>How Information Is Used</h2>
+      <p>The app uses your records to show summaries, trends, reminders, Home Screen widgets on iOS, and care tips. In versions that support AI care summaries, data is sent to the BabyNova AI service only when you request an AI summary and agree to the in-app notice.</p>
+
+      <h2>Storage and Processing</h2>
+      <p>The first Android release for Huawei AppGallery stores care records locally on your device and does not include account login, advertising SDKs, third-party analytics SDKs, or cross-app tracking. It does not request location, contacts, camera, microphone, photos, HealthKit, or motion permissions.</p>
+      <p>On iOS, care records are primarily stored locally. Widget summaries use local App Group storage. Purchases are processed by Apple StoreKit, and BabyNova does not receive your payment card details.</p>
+
+      <h2>AI Care Summaries</h2>
+      <p>When you request an AI care summary in a supported version, BabyNova may send the selected baby's profile and relevant care records to the BabyNova AI service. The service may use configured AI providers such as DeepSeek, Claude, or OpenAI to generate the requested summary.</p>
+      <p>AI-generated content is for log organization and general information only. It is not medical advice, diagnosis, or treatment.</p>
+
+      <h2>Tracking and Advertising</h2>
+      <p>BabyNova does not track you across apps or websites owned by other companies for advertising purposes. BabyNova does not use advertising SDKs.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>BabyNova is intended for parents and caregivers. Please do not enter information unless you have the right to do so.</p>
+
+      <h2>Data Deletion and Contact</h2>
+      <p>You can delete local records in the app or by uninstalling the app. For privacy questions or deletion requests related to server-side processing, contact us at <a href="mailto:68183830@qq.com">68183830@qq.com</a>.</p>
+    </section>
+
+    <footer>© 2026 GUANGYU LI. BabyNova / 小守护.</footer>
   </main>
 </body>
 </html>
